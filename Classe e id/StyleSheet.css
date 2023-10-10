@@ -1,0 +1,93 @@
+﻿
+/*  Em HTML é id      em CSS é # 
+    EM thml É class   em CSS é .
+
+    ID é unico Class pode ter varios
+
+*/
+
+body {
+
+    background-color: #a0e9d1;
+
+}
+
+
+
+div {
+
+    background-color: rgba(2%, 2%, 2%, 40%);
+    border-color: darkslateblue;
+    border-radius: 12px;
+    position: absolute;
+    padding: 30px;
+    left: 40%;
+
+}
+
+
+
+
+h1 {
+    display:inline;
+
+    color: #606;
+    height:       80px;
+    width:        300px;
+    border-width: 4px;
+    border-style: solid;
+    text-align:  center;
+
+
+    padding-top: 10px 10px 10px 10px;   /* Uma forma resumida  de top, right, bottom, left  */
+
+
+    margin-top:   40px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    margin-left:  40px;
+
+   
+
+
+}
+
+
+
+    h1#principal {
+
+        text-align: center;
+        color: red;
+        border-style: none;
+        margin:auto;
+       
+
+    }
+
+
+    h1#principal2 {
+        text-align: center;
+        color: black;
+        border-style: none;
+        margin: unset;
+        display:block;
+        
+    }
+
+
+p {
+   
+    height:100px;
+    width: 400px;
+    border-width: 50px;
+    border-style: solid;
+    text-align: center;
+}
+
+
+
+
+.basico{ color:#039}
+.intermediario{color:yellow}
+.avancado{color:red}
+.borrao{background-color:orange}

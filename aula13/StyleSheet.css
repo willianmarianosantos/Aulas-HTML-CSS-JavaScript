@@ -1,0 +1,32 @@
+﻿
+@charset" UTF-8";
+
+
+
+* { /* Configurações globais das CSS */
+    font-family: Arial, Helvetica, sans-serif;
+   
+    font-size: 20px;
+  }
+
+
+body {
+    background-image: linear-gradient( to right, #3198E2, #6D59C0, #B93590, #E33F5F,#FDD579 );
+    background-attachment:fixed;
+    }
+
+
+main {
+    background-color: white;
+    border-radius: 15px; /*Arredondar as bordas */
+    box-shadow: 5px 5px 5px rgba(70, 36, 104, 40%);   /* lado,baixo, espalhada o sombreamento das bordas*/
+    width: 600px; /*Cria o tamanho da caixa definida pelo background color anterior*/
+    padding: 5px; /*Cria uma "borda" ao lado da ultima letra para ficar com uma melhor aparencia*/
+    margin: auto; /*Define onde ficaram posicionando */
+}
+
+h1 {
+    color: maroon;
+    text-align: center;
+    text-shadow: 1px 1px 1px #8a5959;
+}
